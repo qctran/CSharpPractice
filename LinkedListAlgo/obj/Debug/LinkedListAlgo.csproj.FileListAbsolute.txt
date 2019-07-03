@@ -1,0 +1,6 @@
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\bin\Debug\LinkedListAlgo.exe.config
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\bin\Debug\LinkedListAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\bin\Debug\LinkedListAlgo.pdb
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.csprojResolveAssemblyReference.cache
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.pdb

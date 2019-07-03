@@ -1,0 +1,6 @@
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\bin\Debug\StackAlgo.exe.config
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\bin\Debug\StackAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\bin\Debug\StackAlgo.pdb
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.pdb
+C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.csprojResolveAssemblyReference.cache

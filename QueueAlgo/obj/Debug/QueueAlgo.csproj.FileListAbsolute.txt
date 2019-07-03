@@ -1,0 +1,6 @@
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\bin\Debug\QueueAlgo.exe.config
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\bin\Debug\QueueAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\bin\Debug\QueueAlgo.pdb
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.exe
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.pdb
+C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.csprojResolveAssemblyReference.cache

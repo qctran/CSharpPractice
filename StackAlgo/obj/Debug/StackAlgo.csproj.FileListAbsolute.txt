@@ -4,3 +4,9 @@ C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\bin\Debug\StackAlgo.pdb
 C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.exe
 C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.pdb
 C:\Workspace\Prototypes\LinkedListAlgo\StackAlgo\obj\Debug\StackAlgo.csprojResolveAssemblyReference.cache
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\bin\Debug\StackAlgo.exe.config
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\bin\Debug\StackAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\bin\Debug\StackAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.csprojAssemblyReference.cache
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.pdb

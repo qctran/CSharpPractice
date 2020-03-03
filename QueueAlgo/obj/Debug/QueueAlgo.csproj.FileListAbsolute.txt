@@ -4,3 +4,9 @@ C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\bin\Debug\QueueAlgo.pdb
 C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.exe
 C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.pdb
 C:\Workspace\Prototypes\LinkedListAlgo\QueueAlgo\obj\Debug\QueueAlgo.csprojResolveAssemblyReference.cache
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\bin\Debug\QueueAlgo.exe.config
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\bin\Debug\QueueAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\bin\Debug\QueueAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.csprojAssemblyReference.cache
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.pdb

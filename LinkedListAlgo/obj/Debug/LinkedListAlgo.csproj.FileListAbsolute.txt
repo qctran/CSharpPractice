@@ -4,3 +4,9 @@ C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\bin\Debug\LinkedListAlgo.p
 C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.csprojResolveAssemblyReference.cache
 C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.exe
 C:\Workspace\Prototypes\LinkedListAlgo\LinkedListAlgo\obj\Debug\LinkedListAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\bin\Debug\LinkedListAlgo.exe.config
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\bin\Debug\LinkedListAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\bin\Debug\LinkedListAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.csprojAssemblyReference.cache
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.exe
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.pdb

@@ -31,7 +31,7 @@ namespace DivideTwoIntegers
          */
         static void Main(string[] args)
         {
-            var n = Divide(7, 3);
+            var n = Divide(3, 3);
             Console.WriteLine("There is: {0} times", n);
         }
 
@@ -51,9 +51,9 @@ namespace DivideTwoIntegers
            var n = 0;
            var whole = divisor;
            //var remainder = 0;
-           while (whole < dividend)
+           while (whole <= dividend)
            {
-               if (whole < dividend)
+               if (whole <= dividend)
                {
                    whole += divisor;
                    n++;

@@ -9,3 +9,8 @@ Release
 *.lastbuildstate
 obj
 .vs
+obj\debug
+BinarySearchAlgo/obj/Debug/BinarySearchAlgo.csproj.FileListAbsolute.txt
+LinkedListAlgo/obj/Debug/LinkedListAlgo.csproj.FileListAbsolute.txt
+QueueAlgo/obj/Debug/QueueAlgo.csproj.FileListAbsolute.txt
+StackAlgo/obj/Debug/StackAlgo.csproj.FileListAbsolute.txt

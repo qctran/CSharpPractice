@@ -1,0 +1,10 @@
+*.pdb
+*.exe
+*.lock
+*.suo
+*.cache
+*.tlog
+Debug
+Release
+*.lastbuildstate
+obj

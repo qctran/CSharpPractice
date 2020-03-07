@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRepetitiveNumber", "Fin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoIntegers", "DivideTwoIntegers\DivideTwoIntegers.csproj", "{B6735751-32E1-4054-B15C-9C599BC5AEF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicates", "RemoveDuplicates\RemoveDuplicates.csproj", "{49563B10-C0AD-4627-8191-73353F13087F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -331,6 +333,18 @@ Global
 		{B6735751-32E1-4054-B15C-9C599BC5AEF2}.Release|x64.Build.0 = Release|Any CPU
 		{B6735751-32E1-4054-B15C-9C599BC5AEF2}.Release|x86.ActiveCfg = Release|Any CPU
 		{B6735751-32E1-4054-B15C-9C599BC5AEF2}.Release|x86.Build.0 = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|x64.Build.0 = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Debug|x86.Build.0 = Debug|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|x64.ActiveCfg = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|x64.Build.0 = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|x86.ActiveCfg = Release|Any CPU
+		{49563B10-C0AD-4627-8191-73353F13087F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,6 +362,7 @@ Global
 		{51AD678A-E540-4189-B279-8440A7F66668} = {9CDEB93C-CEF2-4538-8F3F-DEF94E21334F}
 		{7E4CCB30-0E10-403F-9A2C-C4C3D5902567} = {79C83A4A-11C1-4C41-9D85-686E101795D5}
 		{88E93D93-E67F-4FE9-905D-B2A7C1FDE999} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
+		{49563B10-C0AD-4627-8191-73353F13087F} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FE05D40-D1BD-415A-B93C-459C47CC4572}

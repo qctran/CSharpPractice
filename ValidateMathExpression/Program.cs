@@ -32,7 +32,9 @@ namespace ValidateMathExpression
                 "((5+1",
                 "(11+2))",
                 ")123-9",
-                "(44/2))"
+                "(44/2))",
+                "44+",
+                "ab"
             };
 
             foreach(var s in testData)
@@ -69,11 +71,15 @@ namespace ValidateMathExpression
 
                 if (_operators.Contains(ary[i]))
                 {
+                    if (i + 1 >= ary.Length) return false;
+
                     if (_operators.Contains(ary[i+1]))
                     {
                         return false;
                     }
                 }
+
+                if (!char.IsDigit(ary[i])) return false;
             }
 
             if (_quoStack.Count > 0) return false;

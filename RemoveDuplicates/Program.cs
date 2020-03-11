@@ -23,6 +23,13 @@ namespace RemoveDuplicates
                 1 and 2 respectively.
                 It doesn't matter what you leave beyond the returned length.
              */
+
+            /*
+                Success
+                Details 
+                Runtime: 256 ms, faster than 41.21% of C# online submissions for Remove Duplicates from Sorted Array.
+                Memory Usage: 33.3 MB, less than 5.56% of C# online submissions for Remove Duplicates from Sorted Array.
+             */
             var a = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
             var newLen = RemoveDup(a);
             Console.WriteLine("New length is " + newLen);
@@ -51,17 +58,11 @@ namespace RemoveDuplicates
                 {
                     i++;
                     nums[i] = nums[j];
-                    
-                }
-                else
-                {
-                    
+
                 }
             }
 
             return i+1;
         }
-
-        
     }
 }

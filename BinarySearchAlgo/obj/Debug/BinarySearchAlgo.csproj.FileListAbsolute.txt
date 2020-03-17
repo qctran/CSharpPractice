@@ -8,3 +8,4 @@ C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\bin\Debug\BinarySearchA
 C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\bin\Debug\BinarySearchAlgo.pdb
 C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.exe
 C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.csprojAssemblyReference.cache

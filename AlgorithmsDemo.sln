@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateIPAddress", "Valida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatePalindrome", "ValidatePalindrome\ValidatePalindrome.csproj", "{9C8A0D3D-C189-4237-A9D6-3F2F9A180871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMedianOfTwoSortedArrays", "FindMedianOfTwoSortedArrays\FindMedianOfTwoSortedArrays.csproj", "{2867B0C6-09BC-4472-8F04-0A242B1B0639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,18 @@ Global
 		{9C8A0D3D-C189-4237-A9D6-3F2F9A180871}.Release|x64.Build.0 = Release|Any CPU
 		{9C8A0D3D-C189-4237-A9D6-3F2F9A180871}.Release|x86.ActiveCfg = Release|Any CPU
 		{9C8A0D3D-C189-4237-A9D6-3F2F9A180871}.Release|x86.Build.0 = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|x64.Build.0 = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Debug|x86.Build.0 = Debug|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|x64.ActiveCfg = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|x64.Build.0 = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|x86.ActiveCfg = Release|Any CPU
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -452,6 +466,7 @@ Global
 		{EE67A345-DE4F-4CCA-A687-17026562C5AA} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 		{469E07CF-79C4-4927-9BF7-E603C85BAB73} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 		{9C8A0D3D-C189-4237-A9D6-3F2F9A180871} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
+		{2867B0C6-09BC-4472-8F04-0A242B1B0639} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FE05D40-D1BD-415A-B93C-459C47CC4572}

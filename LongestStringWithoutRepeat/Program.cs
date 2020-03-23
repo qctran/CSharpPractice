@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace LongestStringWithoutRepeat
@@ -7,13 +8,22 @@ namespace LongestStringWithoutRepeat
     {
         static void Main(string[] args)
         {
-            //var result = LengthOfLongestSubstring("pwwkew"); // 3
-            //var result = LengthOfLongestSubstring("ppppp"); // 1
-            //var result = LengthOfLongestSubstring("abcabcbb"); // 3
-            //var result = LengthOfLongestSubstring("aab"); // 2 - failed
-            //var result = LengthOfLongestSubstring("abb"); // 2 - failed
-            var result = LengthOfLongestSubstring("abcdefghh"); // 8
-            Console.WriteLine("The max non-repeated char length: {0}", result);
+            var testData = new List<string>()
+            {
+                "pwwkew", // 3
+                "ppppp", // 1
+                "abcabcbb",  // 3
+                "aab", // 2 - failed
+                "abb", // 2 - failed
+                "abcdefghh" // 8
+            };
+
+            foreach(var s in testData)
+            {
+                Console.Write("\"{0}\" ", s);
+                var result = LengthOfLongestSubstring(s);
+                Console.WriteLine("The max non-repeated char length: {0}", result);
+            }
         }
 
         public static int LengthOfLongestSubstring(string s)
@@ -28,6 +38,10 @@ namespace LongestStringWithoutRepeat
             sb.Append(charAry[0]);
             for (var i = 1; i < charAry.Length; i++)
             {
+                if (charAry[i] == charAry[i - 1])
+                {
+                    count--;
+                }
                 if ((charAry[i] != charAry[i - 1]) 
                     && (!sb.ToString().Contains(charAry[i].ToString())))
                 {

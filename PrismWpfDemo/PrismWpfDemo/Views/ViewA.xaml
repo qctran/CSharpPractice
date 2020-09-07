@@ -8,23 +8,40 @@
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <Grid VerticalAlignment="Center" Margin="0,-150,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0">First name:</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="1" Width="100" Height="30" Text="{Binding Firstname}"></TextBox>
-        <TextBlock Grid.Row="1" Grid.Column="0">Last name:</TextBlock>
-        <TextBox Grid.Row="1" Grid.Column="1" Width="100" Height="30" Text="{Binding Lastname}"></TextBox>
-        <TextBlock Grid.Row="2" Grid.Column="0">Last Update</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding LastUpdated}"/>
-        <Button Grid.Row="3" Command="{Binding UpdateCommand}">Go</Button>
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            First name:
+        </TextBlock>
+        <TextBox Grid.Row="0" Grid.Column="1" Width="100" Height="18" 
+                 Text="{Binding Firstname}" 
+                 VerticalAlignment="Bottom" HorizontalAlignment="Left"
+                 Margin="5,0,0,0" VerticalContentAlignment="Bottom"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            Last name:
+        </TextBlock>
+        <TextBox Grid.Row="1" Grid.Column="1" Width="100" Height="18" 
+                 Text="{Binding Lastname}" 
+                 VerticalAlignment="Bottom" HorizontalAlignment="Left"
+                 Margin="5,0,0,0" VerticalContentAlignment="Bottom"/>
+        <TextBlock Grid.Row="2" Grid.Column="0"
+                   VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            Last Update</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding LastUpdated}"
+                   VerticalAlignment="Bottom" HorizontalAlignment="Left" 
+                   Margin="5,0,0,0"/>
+        <Button Grid.Row="3" Command="{Binding UpdateCommand}"
+                Height="20" Width="50" HorizontalAlignment="Right" Grid.ColumnSpan="1">
+            Update
+        </Button>
     </Grid>
 </UserControl>

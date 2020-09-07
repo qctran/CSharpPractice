@@ -4,15 +4,21 @@
 *.suo
 *.cache
 *.tlog
+*.dll
 Debug
 Release
 *.lastbuildstate
 obj
 .vs
 obj\debug
-BinarySearchAlgo/obj/Debug/BinarySearchAlgo.csproj.FileListAbsolute.txt
-LinkedListAlgo/obj/Debug/LinkedListAlgo.csproj.FileListAbsolute.txt
-QueueAlgo/obj/Debug/QueueAlgo.csproj.FileListAbsolute.txt
-StackAlgo/obj/Debug/StackAlgo.csproj.FileListAbsolute.txt
-BinarySearchAlgo/obj/Debug/BinarySearchAlgo.csproj.FileListAbsolute.txt
-BinarySearchAlgo/obj/Debug/BinarySearchAlgo.csproj.FileListAbsolute.txt
+
+// Project's specific files
+BinarySearchAlgo/obj/*.*
+LinkedListAlgo/obj/*.*
+QueueAlgo/obj/*.*
+StackAlgo/obj/*.*
+BinarySearchAlgo/obj/*.*
+PrismWpfDemo/obj/*.*
+
+// Project's packages
+PrismWpfDemo/packages/*.*

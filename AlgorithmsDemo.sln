@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMedianOfTwoSortedArrays
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPalindromicSubstring", "LongestPalindromicSubstring\FindPalindromicSubstring.csproj", "{9CD94BB8-C3C4-43A9-A84E-37CDB0B17B14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo", "AsyncDemo\AsyncDemo\AsyncDemo.csproj", "{85B4D14A-9B66-4749-8629-84D11D223882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -457,6 +459,18 @@ Global
 		{9CD94BB8-C3C4-43A9-A84E-37CDB0B17B14}.Release|x64.Build.0 = Release|Any CPU
 		{9CD94BB8-C3C4-43A9-A84E-37CDB0B17B14}.Release|x86.ActiveCfg = Release|Any CPU
 		{9CD94BB8-C3C4-43A9-A84E-37CDB0B17B14}.Release|x86.Build.0 = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|x64.Build.0 = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Debug|x86.Build.0 = Debug|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|x64.ActiveCfg = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|x64.Build.0 = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|x86.ActiveCfg = Release|Any CPU
+		{85B4D14A-9B66-4749-8629-84D11D223882}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -482,6 +496,7 @@ Global
 		{9C8A0D3D-C189-4237-A9D6-3F2F9A180871} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 		{2867B0C6-09BC-4472-8F04-0A242B1B0639} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
 		{9CD94BB8-C3C4-43A9-A84E-37CDB0B17B14} = {E4DC58B4-EB2C-4899-BD14-4D910B572FDA}
+		{85B4D14A-9B66-4749-8629-84D11D223882} = {4E5FEA45-FB31-4C16-85B4-EE20614EEE5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FE05D40-D1BD-415A-B93C-459C47CC4572}

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace LongestStringWithoutRepeat
@@ -10,55 +11,67 @@ namespace LongestStringWithoutRepeat
         {
             var testData = new List<string>()
             {
+                "", // empty
+                "a", // 1
+                "aabb", // 2
+                "abb", // 2
+                "aab", // 2
+                "abcabcbb",  // 3
                 "pwwkew", // 3
                 "ppppp", // 1
-                "abcabcbb",  // 3
-                "aab", // 2 - failed
-                "abb", // 2 - failed
-                "abcdefghh" // 8
+                "abccdefghh" // 8
             };
 
             foreach(var s in testData)
             {
                 Console.Write("\"{0}\" ", s);
-                var result = LengthOfLongestSubstring(s);
-                Console.WriteLine("The max non-repeated char length: {0}", result);
+                FindLongestSubstring(s);
             }
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
-        public static int LengthOfLongestSubstring(string s)
+        private static void FindLongestSubstring(string s)
         {
-            if (string.IsNullOrEmpty(s)) return 0;
-
-            var charAry = s.ToCharArray();
-
-            int max = 0;
-            var count = 1;
-            var sb = new StringBuilder();
-            sb.Append(charAry[0]);
-            for (var i = 1; i < charAry.Length; i++)
+            if (string.IsNullOrEmpty(s))
             {
-                if (charAry[i] == charAry[i - 1])
+                Console.WriteLine("- empty string");
+                return;
+            }
+
+            var ary = s.ToCharArray();
+            var storage = new Dictionary<string, int>();
+
+            var sb = new StringBuilder();
+            sb.Append(ary[0]);
+            for (var i = 1; i < ary.Length; i++)
+            {
+                if (ary[i] == ary[i - 1])
                 {
-                    count--;
-                }
-                if ((charAry[i] != charAry[i - 1]) 
-                    && (!sb.ToString().Contains(charAry[i].ToString())))
-                {
-                    //if (count == 0) count++; // Add one more count for the last char.
-                    sb.Append(charAry[i]);
-                    count++;
+                    sb.Append(ary[i]);
                 }
                 else
                 {
-                    max = (count > max) ? count : max;
+                    if (!storage.ContainsKey(sb.ToString()))
+                    {
+                        var x = sb.ToString();
+                        storage.Add(x, x.Length);
+                    }
+
                     sb.Clear();
-                    count = 0;
+                    sb.Append(ary[i]);
                 }
             }
 
-            max = (count > max) ? count : max;
-            return max;
+            // Add the last string
+            if (!storage.ContainsKey(sb.ToString()))
+            {
+                storage.Add(sb.ToString(), sb.ToString().Length);
+            }
+
+            var max = storage.Values.Max();
+            Console.WriteLine($"- the longest string has {max} characters.");
         }
     }
 }

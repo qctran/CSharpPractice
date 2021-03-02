@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FibonacciNumber
 {
@@ -16,9 +13,9 @@ namespace FibonacciNumber
                 var result = Fib(i);
                 Console.WriteLine("n: " + i + " value: " + result);
             }
-            
 
-            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static int Fib(int n)
@@ -35,11 +32,9 @@ namespace FibonacciNumber
             {
                 return n;
             }
-            else
-            {
-                result = Fib(n - 1) + Fib(n - 2);
-            }
-            
+
+            result = Fib(n - 1) + Fib(n - 2);
+
             _cache.Add(n, result);
             
             return result;

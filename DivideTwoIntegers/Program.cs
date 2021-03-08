@@ -31,8 +31,11 @@ namespace DivideTwoIntegers
          */
         static void Main(string[] args)
         {
-            var n = Divide(3, 3);
+            var n = Divide(103, 23);
             Console.WriteLine("There is: {0} times", n);
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
        public static int Divide(int dividend, int divisor)

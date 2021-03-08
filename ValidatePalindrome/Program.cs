@@ -37,6 +37,9 @@ namespace ValidatePalindrome
                 Console.Write("\"" + s + "\" is a palindrom = ");
                 Console.WriteLine(IsPalindrome(s));
             }
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         public static bool IsPalindrome(string s)

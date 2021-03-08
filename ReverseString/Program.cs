@@ -10,6 +10,9 @@ namespace ReverseString
             //var s = "amanaP :lanac  a,nalp a ,nam A";
             var s1 = "A man, a plan, a canal: Panama";
             ReverseString(s1);
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static void PrintReverseString(string msg)

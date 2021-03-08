@@ -1,0 +1,26 @@
+﻿<Window x:Class="AsyncDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.Column="0">
+            <Button Margin="5" Click="Button_Click" Width="80" Height="28">Async</Button>
+            <Button Margin="5" Click="Infinit_Click" Width="80" Height="28">Infinit</Button>
+            <Button Margin="5" Click="Modify_Click" Width="80" Height="28">Modify Text</Button>
+            <Button Margin="5" Click="Abort_Click" Width="80" Height="28">Abort</Button>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="1">
+            <TextBlock x:Name="Output" Margin="5" Background="Azure" Height="165"/>
+            <ListBox x:Name="MyList" Margin="5" Background="Azure" Height="200"/>
+        </StackPanel>
+    </Grid>
+</Window>

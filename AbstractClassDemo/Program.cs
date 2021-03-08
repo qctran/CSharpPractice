@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace AbstractClassDemo
 {
@@ -16,6 +13,9 @@ namespace AbstractClassDemo
             var rect = new Rectangular();
             rect.Draw();
             rect.Copy();
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }

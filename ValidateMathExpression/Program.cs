@@ -42,6 +42,9 @@ namespace ValidateMathExpression
                 Console.Write(s + " ");
                 Console.WriteLine(IsValidExpression(s) ? "valid" : "invalid");
             }
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static char[] _operators = new char[] { '*', '/', '+', '-' };

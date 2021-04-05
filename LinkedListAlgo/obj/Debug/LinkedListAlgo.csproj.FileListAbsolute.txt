@@ -10,3 +10,4 @@ C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\bin\Debug\LinkedListAlgo.
 C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.csprojAssemblyReference.cache
 C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.exe
 C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\LinkedListAlgo\obj\Debug\LinkedListAlgo.csproj.CoreCompileInputs.cache

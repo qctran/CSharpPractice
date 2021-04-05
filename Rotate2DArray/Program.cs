@@ -21,6 +21,9 @@ namespace Rotate2DArray
            
             rotate(matrix);
             Print(matrix);
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static void Print(int[][] matrix)

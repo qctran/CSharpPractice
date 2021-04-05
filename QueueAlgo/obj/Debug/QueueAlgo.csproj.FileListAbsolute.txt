@@ -10,3 +10,4 @@ C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\bin\Debug\QueueAlgo.pdb
 C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.csprojAssemblyReference.cache
 C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.exe
 C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\QueueAlgo\obj\Debug\QueueAlgo.csproj.CoreCompileInputs.cache

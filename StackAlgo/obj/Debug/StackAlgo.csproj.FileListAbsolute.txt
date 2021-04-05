@@ -10,3 +10,4 @@ C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\bin\Debug\StackAlgo.pdb
 C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.csprojAssemblyReference.cache
 C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.exe
 C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.pdb
+C:\MyFolders\Source\Repo\CSharpPractice\StackAlgo\obj\Debug\StackAlgo.csproj.CoreCompileInputs.cache

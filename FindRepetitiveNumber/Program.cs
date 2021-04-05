@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FindRepetitiveNumber
 {
@@ -29,6 +27,8 @@ namespace FindRepetitiveNumber
             }
 
             Console.WriteLine(dict.Values.Max());
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }

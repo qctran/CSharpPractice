@@ -3,9 +3,3 @@ C:\Workspace\Prototypes\LinkedListAlgo\BinarySearchAlgo\bin\Debug\BinarySearchAl
 C:\Workspace\Prototypes\LinkedListAlgo\BinarySearchAlgo\bin\Debug\BinarySearchAlgo.pdb
 C:\Workspace\Prototypes\LinkedListAlgo\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.exe
 C:\Workspace\Prototypes\LinkedListAlgo\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.pdb
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\bin\Debug\BinarySearchAlgo.exe.config
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\bin\Debug\BinarySearchAlgo.exe
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\bin\Debug\BinarySearchAlgo.pdb
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.exe
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.pdb
-C:\MyFolders\Source\Repo\CSharpPractice\BinarySearchAlgo\obj\Debug\BinarySearchAlgo.csprojAssemblyReference.cache

@@ -25,16 +25,15 @@ namespace TemperatureReader
             var dataProc = new DataProcessor(device);
             var tempProc = new TemperatureProcessor(calculator, validator, output);
 
-            ShowAllData(device, dataProc, tempProc);
+            ShowAllData(dataProc, tempProc);
         }
 
         /// <summary>
         /// This method will go through all sample data from the testDevice.
         /// </summary>
-        /// <param name="device"></param>
         /// <param name="dataProc"></param>
         /// <param name="tempProc"></param>
-        private static void ShowAllData(IDevice device, DataProcessor dataProc, TemperatureProcessor tempProc)
+        private static void ShowAllData(DataProcessor dataProc, TemperatureProcessor tempProc)
         {
             try
             {
@@ -43,7 +42,7 @@ namespace TemperatureReader
                 {
                     var data = dataProc.Read();
                     tempProc.PrintTemperature(data);
-                } while (Console.ReadKey().Key != ConsoleKey.Escape);
+                } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
             }
             catch (Exception e)
             {

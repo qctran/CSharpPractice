@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace TemperatureReader
+﻿namespace TemperatureReader
 {
     public interface ICalculator
     {
-        double GetDegree(UInt16 dec);
+        double GetDegree(ushort dec);
     }
 }

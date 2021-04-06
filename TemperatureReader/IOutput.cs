@@ -2,7 +2,7 @@
 {
     public interface IOutput
     {
-        void PrintToConsole(double degree);
+        void PrintDegree(double degree);
         void WriteMessage(string msg);
     }
 }

@@ -11,8 +11,6 @@
 
         public byte[] Read()
         {
-            // See the instructions on the Device.cs class
-            // for different test cases.
             return _device.ReceiveBytes();
         }
     }

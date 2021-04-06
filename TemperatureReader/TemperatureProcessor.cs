@@ -27,7 +27,7 @@ namespace TemperatureReader
 
             // Total array length - 1 byte for <length> - the <length> value
             // should be two or more bytes
-            if ((data.Length - 1 - length) < 2)
+            if (length < 0 || data.Length - 1 - length < 2)
             {
                 _output.WriteMessage("Not enough temperature data value");
                 return;
@@ -40,7 +40,7 @@ namespace TemperatureReader
         }
 
         /// <summary>
-        /// Print the temperature from the receiving data.
+        /// Calculate and print the temperature from the receiving data.
         /// </summary>
         /// <param name="data">The temperature byte array from the receiving data</param>
         private void CalcAndPrint(byte[] data)
@@ -56,11 +56,19 @@ namespace TemperatureReader
             {
                 var valueBytes = new ArraySegment<byte>(data, index, 2).ToArray();
 
-                var degree = CalculateTemperature(valueBytes);
-                _output.PrintToConsole(degree);
-
+                ShowOneTemperature(valueBytes);
                 index += 2;
             }
+        }
+
+        /// <summary>
+        /// ShowOneTemperature one temperature
+        /// </summary>
+        /// <param name="valueBytes">An array or two bytes for one temperature</param>
+        private void ShowOneTemperature(byte[] valueBytes)
+        {
+            var degree = CalculateTemperature(valueBytes);
+            _output.PrintDegree(degree);
         }
 
         /// <summary>

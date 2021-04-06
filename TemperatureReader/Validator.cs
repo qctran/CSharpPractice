@@ -1,22 +1,26 @@
-﻿using System;
-
-namespace TemperatureReader
+﻿namespace TemperatureReader
 {
-    public class Validator
+    public class Validator : IValidator
     {
-        public static bool ValidateRawData(byte[] data)
+        private readonly IOutput _output;
+
+        public Validator(IOutput output)
+        {
+            _output = output;
+        }
+        public bool ValidateRawData(byte[] data)
         {
             if (data.Length < 5)
             {
                 // Data must contain at least 5 bytes
                 // as <start><length><data> . . . <data><end>
-                Console.WriteLine("Invalid data size");
+                _output.WriteMessage("Invalid data size");
                 return false;
             }
 
             if (!ValidateProtocol(data))
             {
-                Console.WriteLine("Unrecognize data format");
+                _output.WriteMessage("Unrecognized data format");
                 return false;
             }
 

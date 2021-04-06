@@ -1,6 +1,6 @@
 ﻿namespace TemperatureReader
 {
-    interface IDevice
+    public interface IDevice
     {
         void SendBytes(byte[] toSend);
         byte[] ReceiveBytes();

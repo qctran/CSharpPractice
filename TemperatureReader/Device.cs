@@ -12,6 +12,8 @@ namespace TemperatureReader
             // * Good test cases
             // Valid DEFAULT case where there is 2 bytes for temperature
             var data = new byte[] { 0xaa, 0x02, 0x30, 0x00, 0x55 };
+            //var data = new byte[] { 0xaa, 0x02, 0x00, 0x00, 0x55 };
+            //var data = new byte[] { 0xaa, 0x02, 0xff, 0x00, 0x55 };
 
             // Valid multiple bytes for temperature
             //var data = new byte[] { 0xaa, 0x06, 0x30, 0x00, 0x40, 0x00, 0x20, 0x00, 0x55 };
